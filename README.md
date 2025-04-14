@@ -36,7 +36,7 @@ Cloná el repositorio:
 bash
 Copiar
 Editar
-git clone https://github.com/tuUsuario/bloggamer.git
+git clone https://github.com/nicolasbelmana/bloggamer.git
 Abrí index.html en tu navegador.
 
 🚀 Objetivo
