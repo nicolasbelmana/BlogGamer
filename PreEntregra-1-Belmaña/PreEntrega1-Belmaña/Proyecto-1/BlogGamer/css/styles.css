@@ -1,0 +1,213 @@
+/*Proyecto de Belmaña*/
+/*Fuente*/
+.atkinson-hyperlegible-mono-bold {
+    font-family: "Atkinson Hyperlegible Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600; /* Grosor negrita */
+    font-style: normal;
+}
+
+.atkinson-hyperlegible-mono-regular {
+    font-family: "Atkinson Hyperlegible Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300; /* Grosor normal */
+    font-style: normal;
+}
+/* Estilos generales */
+body {
+    
+    font-family: "Atkinson Hyperlegible Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilos del encabezado */
+.header {
+    background-color: #222;
+    padding: 10px;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Logo con regreso a inicio*/
+.logo a {
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: inherit; /* Hereda el color del texto del elemento padre */
+}
+
+.logo span {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/*Nav*/
+.nav-main a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.nav-main a.active {
+    background-color: #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.search-input input {
+    padding: 5px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+}
+
+/* Estilos del contenido principal página "Inicio" */
+.main-content.home {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    width: 100%;
+}
+
+.news-item {
+    background-color: #444;
+    padding: 15px;
+}
+
+.news-image {
+    background-color: #666;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.search-box {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.search-box input {
+    padding: 5px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    width: 100%;
+}
+
+/* Estilos del contenido principal página "Gaming" */
+.main-content.gaming {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    width: 100%;
+}
+
+.game-item {
+    background-color: #444;
+    padding: 15px;
+}
+
+.game-image {
+    background-color: #666;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+/* Estilos del contenido principal página "Sobre Nosotros" */
+.main-content.sobre-nosotros {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-us {
+    background-color: #444;
+    padding: 20px;
+    width: 80%;
+    text-align: center;
+}
+
+/* Estilos del contenido principal página "Contacto" */
+.main-content.contacto {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    background-color: #444;
+    padding: 20px;
+    width: 80%;
+}
+
+.contact-form label, .contact-form input, .contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact-form input,.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #666;
+    background-color: #555;
+    color: #fff;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos del pie de página */
+.footer {
+    background-color: #222;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Estilos de listas */
+.nav-main ul, .footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
